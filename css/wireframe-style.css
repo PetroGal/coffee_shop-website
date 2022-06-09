@@ -1,0 +1,121 @@
+#home {
+  border: dashed 4px rosybrown;
+}
+.navbar {
+  border: dashed 3px aqua;
+}
+
+.skills {
+  border: dashed 2px aqua;
+}
+
+.skill {
+  border: dashed 1px blue;
+}
+
+.nav-links {
+  border: dashed 2px blue;
+}
+
+.nav-icons {
+  border: dashed 2px blue;
+}
+
+.nav-icon {
+  border: dashed 1px green;
+}
+
+.nav-phone {
+  border: dashed 2px blue;
+}
+.nav-phone-icon {
+  border: dashed 1px black;
+}
+.section-center {
+  border: dashed 1px orangered;
+  padding: 0.2rem;
+}
+.about {
+  border: dashed 2px aqua;
+}
+
+.header {
+  border: dashed 2px aqua;
+}
+
+.banner {
+  border: dashed 2px red;
+}
+
+h1 {
+  border: dashed 2px yellow;
+}
+
+.section-title {
+  border: dashed 2px brown;
+}
+
+h2 {
+  border: dashed 2px white;
+}
+
+h3 {
+  border: dashed 2px orchid;
+}
+
+h4 {
+  border: dashed 2px coral;
+}
+
+p {
+  border: dashed 2px gray;
+}
+
+/* global class section-center - responsible for the width of all the columns in the layout */
+.section-center {
+  border: dashed 2px green;
+}
+
+/*responsible for the specific column layout (here 2 column layout): how many columns we have, what is the width*/
+.about-center {
+  border: dashed 2px red;
+}
+
+.about-info {
+  border: dashed 2px orange;
+}
+
+.about-img {
+  border: dashed 2px blue;
+}
+
+.service-center {
+  border: dashed 2px red;
+}
+
+.footer {
+  border: dashed 3px aqua;
+}
+
+.section-title {
+  border: dashed 2px gold;
+}
+
+.service-img {
+  border: dashed 2px blue;
+}
+
+.footer-links {
+  border: dashed 2px white;
+}
+
+.contact_us-center {
+  border: dashed 2px red;
+}
+.contact_us-info {
+  border: dashed 2px orange;
+}
+
+.contact_us-photo {
+  border: dashed 2px orange;
+}
