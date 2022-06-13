@@ -12,6 +12,9 @@
 .skill {
   border: dashed 1px blue;
 }
+.nav-btn {
+  border: dashed 1px blue;
+}
 
 .nav-links {
   border: dashed 2px blue;
@@ -33,7 +36,6 @@
 }
 .section-center {
   border: dashed 1px orangered;
-  padding: 0.2rem;
 }
 .about {
   border: dashed 2px aqua;
