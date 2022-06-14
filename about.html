@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tea Station || About</title>
+    <title>Coffee Shop || Home</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <!-- custom css -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+    <!-- ========================= CUSTOM CSS ===================-->
 
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/wireframe-style.css" /> -->
+  </head>
   <body>
-    <!-- navbar -->
+    <!-- ========================= NAVBAR ========================-->
     <!-- nav button -->
     <span class="nav-btn" id="nav-btn">
       <i class="fas fa-bars"></i>
+      <!-- <i class="fa-solid fa-mug-hot"></i> -->
     </span>
     <nav class="navbar" id="navbar">
       <div class="navbar-header">
@@ -33,28 +38,28 @@
         <li><a href="products.html" class="nav-link">products</a></li>
       </ul>
     </nav>
-    <!-- header  -->
+
+    <!-- =========================== HEADER ========================-->
     <header class="header">
       <div class="banner">
-        <h2>Over one hundred flavors of</h2>
-        <h1>
+        <h2 style="color: #a42103">Over one hundred flavors of</h2>
+        <h1 style="color: #611402">
           specially <br />
-          crafted tea
+          crafted coffee
         </h1>
-        <a href="skills.html" class="btn banner-btn">
-          explore
-        </a>
       </div>
     </header>
     <!-- end of header  -->
-    <!-- about -->
-    <section>
+    <div class="content-divider"></div>
+
+    <!--============================= ABOUT ====================================-->
+    <section class="about">
       <div class="section-center clearfix">
         <!-- about-img -->
         <article class="about-img">
           <div class="about-picture-container">
             <img
-              src="./images/about-bcg.jpeg"
+              src="./images/pexels-elle-hughes-2101150.jpeg"
               alt="tea kettle"
               class="about-picture"
             />
@@ -65,25 +70,31 @@
           <!-- section title -->
           <div class="section-title">
             <h3>about our</h3>
-            <h2>tea station</h2>
+            <h2>coffee shop</h2>
           </div>
           <!-- end of section title -->
           <p class="about-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            repellendus reprehenderit iure, vero nobis dolore!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo qui
+            distinctio voluptatem fuga dicta consequuntur assumenda reiciendis
+            earum eos mollitia, dolorum neque vel officiis itaque unde alias
+            cumque omnis consectetur et commodi accusamus. Repudiandae cumque
+            cum quas fugiat fugit, porro distinctio quam impedit obcaecati
+            illum! Odio fugit iste rem eaque, ex repudiandae dolorem architecto.
+            Facere debitis aliquam odio ex earum expedita eius facilis! Atque
+            fugit ullam asperiores provident, aspernatur ea veniam iusto dolorem
+            culpa velit explicabo iure consectetur doloribus quisquam expedita
+            sapiente numquam? Officia sint, amet minima ut neque assumenda
+            accusantium, itaque deleniti asperiores numquam, labore possimus
+            dolor? Nisi, voluptatibus?
           </p>
-          <p class="about-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            repellendus reprehenderit iure, vero nobis dolore!
-          </p>
-          <a href="about.html" class="btn">learn more</a>
         </article>
       </div>
     </section>
     <!-- end of about -->
+
     <!-- footer -->
     <footer class="footer">
-      <div class="section-center">
+      <div class="section-center" id="footer_text">
         <div class="social-icons">
           <!-- social icon -->
           <a href="#" class="social-icon">
@@ -103,7 +114,7 @@
         </div>
         <h4 class="footer-text">
           &copy;<span id="date"></span>
-          <span class="company">tea station</span>
+          <span class="company">coffee shop</span>
           all rights reserved
         </h4>
       </div>

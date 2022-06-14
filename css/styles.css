@@ -262,7 +262,7 @@ Navbar
   padding: 0.25rem 1rem;
   text-transform: uppercase;
   letter-spacing: var(--spacing);
-  color: var(--clr-grey-5);
+  color: var(--clr-primary);
   transition: var(--transition);
 }
 .nav-link:hover {
@@ -397,7 +397,7 @@ About
   transform: scale(1.2);
 }
 .about-text {
-  max-width: 26rem;
+  max-width: 40rem;
   color: #611402;
 }
 @media screen and (min-width: 992px) {

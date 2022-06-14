@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tea Station || Products</title>
+    <title>Coffee Shop || Home</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <!-- custom css -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+    <!-- ========================= CUSTOM CSS ===================-->
 
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/wireframe-style.css" /> -->
+  </head>
   <body>
-    <!-- navbar -->
+    <!-- ========================= NAVBAR ========================-->
     <!-- nav button -->
     <span class="nav-btn" id="nav-btn">
       <i class="fas fa-bars"></i>
+      <!-- <i class="fa-solid fa-mug-hot"></i> -->
     </span>
     <nav class="navbar" id="navbar">
       <div class="navbar-header">
@@ -33,21 +38,22 @@
         <li><a href="products.html" class="nav-link">products</a></li>
       </ul>
     </nav>
-    <!-- header  -->
+
+    <!-- =========================== HEADER ========================-->
     <header class="header">
       <div class="banner">
-        <h2>Over one hundred flavors of</h2>
-        <h1>
+        <h2 style="color: #a42103">Over one hundred flavors of</h2>
+        <h1 style="color: #611402">
           specially <br />
-          crafted tea
+          crafted coffee
         </h1>
-        <a href="skills.html" class="btn banner-btn">
-          explore
-        </a>
       </div>
     </header>
     <!-- end of header  -->
-    <!-- products -->
+    <div class="content-divider"></div>
+
+    <!-- =========================== PRODUCTS ==================================-->
+
     <section class="products">
       <div class="section-center clearfix">
         <!-- products info -->
@@ -63,43 +69,73 @@
             quidem, repellat praesentium esse ducimus odit alias nulla laborum
             doloremque voluptatum, a cum magnam iure accusamus.
           </p>
-          <a href="products.html" class="btn">inventory</a>
         </article>
         <!-- products inventory -->
         <article class="products-inventory clearfix">
           <!-- single product -->
           <div class="product">
             <img
-              src="./images/product-1.jpeg"
+              src="./images/pexels-jess-bailey-designs-1078085.jpeg"
               alt="single product"
               class="product-img"
             />
-            <h4 class="product-title">ginger peach tea</h4>
+            <h4 class="product-title">americano</h4>
             <h4 class="product-price">$6.99</h4>
           </div>
           <!-- end of single product -->
           <!-- single product -->
           <div class="product">
             <img
-              src="./images/product-2.jpeg"
-              alt="single product"
-              class="product-img"
-            />
-            <h4 class="product-title">fruit sangria</h4>
-            <h4 class="product-price">$6.99</h4>
-          </div>
-          <!-- end of single product -->
-          <!-- single product -->
-          <div class="product">
-            <img
-              src="./images/product-3.jpeg"
+              src="./images/dr-b-carino-JiKuXzAGJvg-unsplash.jpeg"
               alt="single product"
               class="product-img"
             />
             <h4 class="product-title">white tea</h4>
             <h4 class="product-price">$6.99</h4>
           </div>
+
           <!-- end of single product -->
+          <!-- single product -->
+          <div class="product">
+            <img
+              src="./images/pexels-engin-akyurt-2531185.jpeg"
+              alt="single product"
+              class="product-img"
+            />
+            <h4 class="product-title">Cocktail</h4>
+            <h4 class="product-price">$6.99</h4>
+          </div>
+          <!-- end of single product -->
+          <div class="product">
+            <img
+              src="./images/pexels-jess-bailey-designs-1078085.jpeg"
+              alt="single product"
+              class="product-img"
+            />
+            <h4 class="product-title">americano</h4>
+            <h4 class="product-price">$6.99</h4>
+          </div>
+          <div class="product">
+            <img
+              src="./images/dr-b-carino-JiKuXzAGJvg-unsplash.jpeg"
+              alt="single product"
+              class="product-img"
+            />
+            <h4 class="product-title">white tea</h4>
+            <h4 class="product-price">$6.99</h4>
+          </div>
+
+          <!-- end of single product -->
+          <!-- single product -->
+          <div class="product">
+            <img
+              src="./images/pexels-engin-akyurt-2531185.jpeg"
+              alt="single product"
+              class="product-img"
+            />
+            <h4 class="product-title">Cocktail</h4>
+            <h4 class="product-price">$6.99</h4>
+          </div>
         </article>
       </div>
     </section>
@@ -107,7 +143,7 @@
 
     <!-- footer -->
     <footer class="footer">
-      <div class="section-center">
+      <div class="section-center" id="footer_text">
         <div class="social-icons">
           <!-- social icon -->
           <a href="#" class="social-icon">
@@ -127,7 +163,7 @@
         </div>
         <h4 class="footer-text">
           &copy;<span id="date"></span>
-          <span class="company">tea station</span>
+          <span class="company">coffee shop</span>
           all rights reserved
         </h4>
       </div>
