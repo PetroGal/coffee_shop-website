@@ -539,6 +539,12 @@ Services
   transform: translate(-50%, 50%);
   border: 0.375rem solid var(--clr-grey-10);
 }
+.service_items {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-align: left;
+}
 /*
 =============== 
 Contact
