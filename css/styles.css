@@ -305,6 +305,7 @@ Header
   /* animation */
   animation: slideFromRight 5s ease-in-out 1;
 }
+
 .banner h1 {
   text-transform: uppercase;
   color: var(--clr-white);
