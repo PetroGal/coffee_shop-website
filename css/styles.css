@@ -305,7 +305,9 @@ Header
   /* animation */
   animation: slideFromRight 5s ease-in-out 1;
 }
-
+#upper-banner {
+  margin-bottom: 20px;
+}
 .banner h1 {
   text-transform: uppercase;
   color: var(--clr-white);
@@ -331,55 +333,15 @@ Header
     var(--clr-primary)
   );
 }
-/*
-=============== 
-Skills
-===============
-*/
 
-.skills {
-  background: var(--clr-grey-10);
-}
-.skill {
-  padding: 2.5rem 0;
-  text-align: center;
-  transition: var(--transition);
-}
-.skill-icon {
-  font-size: 2.5rem;
-  margin-bottom: 1.25rem;
-  transition: var(--transition);
-  display: inline-block;
-  color: #611402;
-}
-.skill-text {
-  color: #611402;
-  max-width: 17rem;
-  margin: 0 auto;
-}
-.skill:hover {
-  background: var(--clr-white);
-  box-shadow: 0 2px var(--clr-primary);
-}
-.skill:hover .skill-icon {
-  transform: translateY(-5px);
-}
-@media screen and (min-width: 576px) {
-  .skill {
-    float: left;
-    width: 50%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .skill {
-    width: 25%;
-  }
-}
 /*
 =============== 
 About
 ===============
 */
+.about {
+  background: var(--clr-grey-10);
+}
 .about-img,
 .about-info {
   padding: 2rem 0;
@@ -476,6 +438,11 @@ Services
   margin-bottom: -4rem;
   text-align: center;
 }
+.services-title-contact {
+  margin-top: 4rem;
+  margin-bottom: -4rem;
+  text-align: start;
+}
 .service-card {
   margin: 2rem 0;
   background: var(--clr-grey-10);
@@ -548,16 +515,21 @@ Services
 }
 /*
 =============== 
-Contact
+Contact Us
 ===============
 */
 .contact {
-  background: var(--clr-grey-10);
+  background: var(--clr-white);
 }
-.contact-form,
 .contact-info {
   margin: 1rem 0;
 }
+#contact_us-title {
+  display: flex;
+  justify-content: start;
+  padding-left: 2rem;
+}
+
 .contact-item {
   margin-bottom: 1.75rem;
 }
@@ -568,53 +540,22 @@ Contact
 .contact-text {
   text-transform: uppercase;
 }
-.contact-form {
-  background: var(--clr-white);
+
+.contact-picture-container {
+  background: var(--clr-primary);
+  max-width: 30rem;
   border-radius: var(--radius);
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: var(--transition);
-  max-width: 35rem;
+  /* extra stuff */
+  overflow: hidden;
 }
-.contact-form:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-.contact-form h3 {
-  padding-top: 1.25rem;
-  color: #611402;
-}
-.form-group {
-  padding: 1rem 1.5rem;
-}
-.form-control {
-  display: block;
-  width: 100%;
-  padding: 0.75rem 1rem;
-  border: none;
-  margin-bottom: 1.25rem;
-  background: var(--clr-grey-10);
-  border-radius: var(--radius);
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
-}
-.form-control::placeholder {
-  font-family: var(--ff-primary);
-  color: var(--clr-grey-1);
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
-}
-.submit-btn {
-  display: block;
-  width: 100%;
-  padding: 1rem;
-  border-bottom-left-radius: var(--radius);
-  border-bottom-right-radius: var(--radius);
-}
+
 @media screen and (min-width: 992px) {
-  .contact-form,
   .contact-info {
     float: left;
     width: 50%;
+  }
+  #contact_working-hours {
+    padding-left: 2rem;
   }
 }
 /*

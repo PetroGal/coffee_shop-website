@@ -4,6 +4,9 @@
 .navbar {
   border: dashed 3px aqua;
 }
+.nav-center {
+  border: dashed 3px red;
+}
 
 .skills {
   border: dashed 2px aqua;
@@ -58,7 +61,7 @@ h1 {
 }
 
 h2 {
-  border: dashed 2px white;
+  border: dashed 2px blue;
 }
 
 h3 {
@@ -99,9 +102,9 @@ p {
   border: dashed 3px aqua;
 }
 
-.section-title {
+/* .section-title {
   border: dashed 2px gold;
-}
+} */
 
 .service-img {
   border: dashed 2px blue;
