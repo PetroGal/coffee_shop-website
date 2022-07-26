@@ -1,11 +1,15 @@
 #home {
-  border: dashed 4px rosybrown;
+  border: dashed 4px black;
 }
 .navbar {
   border: dashed 3px aqua;
 }
 .nav-center {
   border: dashed 3px red;
+}
+
+.nav-header {
+  border: dashed 3px green;
 }
 
 .skills {

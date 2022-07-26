@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Coffee Shop || Products</title>
+    <title>Coffee Shop || Drinks</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -19,42 +19,35 @@
     <!-- <link rel="stylesheet" href="./css/wireframe-style.css" /> -->
   </head>
   <body>
-    <!-- ========================= NAVBAR ========================-->
-    <!-- nav button -->
-    <span class="nav-btn" id="nav-btn">
-      <i class="fas fa-bars"></i>
-      <!-- <i class="fa-solid fa-mug-hot"></i> -->
-    </span>
-    <nav class="navbar" id="navbar">
-      <div class="navbar-header">
-        <span class="nav-close" id="nav-close">
-          <i class="fas fa-times"></i>
-        </span>
-      </div>
-      <ul class="nav-items">
-        <li><a href="index.html" class="nav-link">home</a></li>
-        <li><a href="about.html" class="nav-link">about</a></li>
-        <!-- <li>
-          <a href="soups_and_salads.html" class="nav-link">Soups & Salads</a>
-        </li> -->
-        <li><a href="drinks.html" class="nav-link">Drinks</a></li>
-        <li><a href="sandwiches.html" class="nav-link">Sandwiches</a></li>
-
-        <li><a href="sweets.html" class="nav-link">Sweets</a></li>
-      </ul>
-    </nav>
-
-    <!-- =========================== HEADER ========================-->
-    <!-- <header class="header">
-      <div class="banner">
-        <h2 style="color: #a42103">Over one hundred flavors of</h2>
-        <h1 style="color: #611402">
-          specially <br />
-          crafted coffee
-        </h1>
-      </div>
-    </header> -->
-    <!-- end of header  -->
+    <header class="header" id="home">
+      <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="./images/coffee-shop-logo.svg" class="nav-logo" alt="" />
+            <button type="button" class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <ul class="nav-links" id="nav-links">
+            <li>
+              <a href="index.html" class="nav-link">home</a>
+            </li>
+            <li>
+              <a href="drinks.html" class="nav-link">drinks</a>
+            </li>
+            <li>
+              <a href="sandwiches.html" class="nav-link">sandwiches</a>
+            </li>
+            <li>
+              <a href="sweets.html" class="nav-link">sweets</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">about us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <div class="content-divider"></div>
 
     <!-- =========================== DRINKS ==================================-->
@@ -147,25 +140,10 @@
     <!-- end of products -->
 
     <!-- footer -->
+
+    <!-- footer -->
     <footer class="footer">
       <div class="section-center" id="footer_text">
-        <div class="social-icons">
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-facebook"></i>
-          </a>
-          <!-- end of social icon -->
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <!-- end of social icon -->
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <!-- end of social icon -->
-        </div>
         <h4 class="footer-text">
           &copy;<span id="date"></span>
           <span class="company">coffee shop</span>
