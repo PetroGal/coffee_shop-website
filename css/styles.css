@@ -578,7 +578,7 @@ Navbar COFFEE-SHOP
 }
 @media screen and (min-width: 992px) {
   .navbar {
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
   .nav-toggle {
     display: none;
@@ -598,7 +598,7 @@ Navbar COFFEE-SHOP
   }
   .nav-link {
     padding: 0 0;
-    margin-right: 0.7rem;
+    margin-right: 1rem;
   }
   .nav-link:hover {
     padding: 0;
