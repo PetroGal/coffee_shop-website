@@ -499,18 +499,21 @@ Hero COFFEE-SHOP
 }
 .hero-banner h2 {
   font-family: var(--ff-secondary);
-  color: var(--clr-primary);
+  color: var(--clr-white);
   /* animation */
   animation: slideFromRight 5s ease-in-out 1;
+  text-shadow: 4px 0 2px #33231c;
 }
 .hero-banner h1 {
   text-transform: uppercase;
-  color: var(--clr-white);
+  color: #611402;
   margin-top: 2rem;
   margin-bottom: 0rem;
   /* animation */
   animation: slideFromLeft 5s ease-in-out 1;
+  text-shadow: 4px 0 4px #feb9a8;
 }
+
 /*
 =============== 
 Navbar COFFEE-SHOP
