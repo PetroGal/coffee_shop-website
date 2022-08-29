@@ -1,3 +1,6 @@
+#home {
+  border: dashed 4px black;
+}
 .navbar {
   border: dashed 3px aqua;
 }
@@ -40,21 +43,6 @@
 }
 .section-center {
   border: dashed 1px orangered;
-}
-left-left {
-  border: dashed 2px red;
-}
-right-top {
-  border: dashed 2px red;
-}
-right-bottom {
-  border: dashed 2px red;
-}
-.middle-banner {
-  border: dashed 2px yellow;
-}
-.hero {
-  border: dashed 2px green;
 }
 .about {
   border: dashed 2px aqua;
